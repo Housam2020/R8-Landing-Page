@@ -1,19 +1,31 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
 body{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+ 
 }
 
+/* Navbar */
+img{
+    width: 400px;
+    height: auto;
+}
+
+.logo{
+    width: 100px;   
+}
+
+
+
 header{
+ 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px;
+    padding: 16px 24px;
     background-color:  #828788;
 }
 .links a{
@@ -24,12 +36,51 @@ header{
     font-weight: 700;
 }
 
-
-img{
-    width: 400px;
-    height: auto;
-}
-.logo{
-    width: 100px;
+/* Hero intro part */
+.intro{
+    display: flex;
+    background-color:  #828788;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    
     
 }
+.intro-content{
+    display: flex;
+    flex-direction: column;
+ 
+    margin-right: 50px;
+flex-basis: 400px;
+    padding: 16px;
+}
+
+.intro-p{
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+
+.intro-title{
+    font-size: 32px;
+    font-weight: 1000;
+    
+
+}
+
+.intro-img{
+   height: 200px;
+   width: auto;
+
+   object-fit: cover;
+}
+
+button{
+    background-color: #f27719;
+    color: #e2ded1;
+    border-style:solid;
+    border-radius: 8px;
+    border-color: #e2ded1;
+   
+    padding: 8px;
+}
+
