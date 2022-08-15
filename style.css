@@ -43,6 +43,7 @@ header{
     padding: 24px;
     justify-content: center;
     align-items: center;
+    background-size: cover;
     
     
 }
@@ -67,11 +68,15 @@ flex-basis: 400px;
 
 }
 
-.intro-img{
-   height: 200px;
-   width: auto;
+.hero-img{
+    min-width: 0;
+    flex-basis: 800px;
+}
 
-   object-fit: cover;
+.intro-img{
+
+   width: 100%;
+   height: auto;
 }
 
 button{
@@ -80,7 +85,39 @@ button{
     border-style:solid;
     border-radius: 8px;
     border-color: #e2ded1;
-   
-    padding: 8px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    align-self: center;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-text{
+    font-weight: 700;
+}
+
+.middle-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-images figure{
+min-width: 0;
+flex-basis: 350px;
+gap: 0 20px;
+
+  }
+
+.middle-images img{
+    width: 100%;
+    height: auto;
+ 
 }
 
