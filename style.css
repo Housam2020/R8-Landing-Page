@@ -45,6 +45,7 @@ header{
     align-items: center;
     background-size: cover;
     
+    margin-bottom: 16px;
     
 }
 .intro-content{
@@ -96,6 +97,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .middle-text{
@@ -106,18 +108,40 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .middle-images figure{
-min-width: 0;
+
+    width: 450px;
+    height: 450px;
+    min-width: 0;
 flex-basis: 350px;
 gap: 0 20px;
+text-align: center;
+border: solid #f27719;
 
+overflow: hidden;
   }
 
 .middle-images img{
-    width: 100%;
-    height: auto;
  
+    height: auto;
+    width: 100%;
+
+
+display: inline-block;
+position: relative;
+
+    object-fit: cover;
+    
+  
+}
+
+.middle-images figcaption{
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 5px;
 }
 
