@@ -92,13 +92,7 @@ button{
     align-self: center;
 }
 
-.middle{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
+/* Middle Part */
 
 .middle-text{
     font-weight: 700;
@@ -107,41 +101,58 @@ button{
 .middle-images{
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center;   
 }
 
 .middle-images figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    width: 450px;
-    height: 450px;
-    min-width: 0;
-flex-basis: 350px;
-gap: 0 20px;
-text-align: center;
-border: solid #f27719;
-
-overflow: hidden;
   }
 
 .middle-images img{
- 
-    height: auto;
-    width: 100%;
-
-
-display: inline-block;
-position: relative;
-
+    width: 300px;
+    height: 300px;
     object-fit: cover;
-    
-  
+    border: 4px solid #f27719;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
 }
 
 .middle-images figcaption{
     text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 1.5em;
+}
+
+.middle-quote{
+    margin-top: -90px;
+    background-color: #828788;
+}
+
+
+.sign-up p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sign-up{
+ 
+width: 900px;
+height: 200px;
+    background-color: #b51c14;
     margin: auto;
-    margin-top: 30px;
-    padding: 5px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+}
+
+footer{
+    background-color: darkgray;
+    
+    
 }
 
